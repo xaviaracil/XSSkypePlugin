@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47089B1812872C1400FFCD87 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47089B1712872C1400FFCD87 /* AddressBook.framework */; };
+		47089B1A12872C1400FFCD87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47089B1912872C1400FFCD87 /* Cocoa.framework */; };
+		47089B1F12872C1400FFCD87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47089B1D12872C1400FFCD87 /* InfoPlist.strings */; };
+		47089B2112872C1400FFCD87 /* XSSkypePlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 47089B2012872C1400FFCD87 /* XSSkypePlugin.h */; };
+		47089B2312872C1400FFCD87 /* XSSkypePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 47089B2212872C1400FFCD87 /* XSSkypePlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47089B1512872C1400FFCD87 /* XSSkypePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XSSkypePlugin.bundle; path = Users/xavi/xaracSoft/Applications/XSSkypePlugin/build/Debug/XSSkypePlugin.bundle; sourceTree = SDKROOT; };
+		47089B1712872C1400FFCD87 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		47089B1912872C1400FFCD87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		47089B1B12872C1400FFCD87 /* XSSkypePlugin-Info.plist */ = {isa = PBXFileReference; path = "XSSkypePlugin-Info.plist"; sourceTree = "<group>"; };
+		47089B1C12872C1400FFCD87 /* XSSkypePlugin_Prefix.pch */ = {isa = PBXFileReference; path = XSSkypePlugin_Prefix.pch; sourceTree = "<group>"; };
+		47089B1E12872C1400FFCD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47089B2012872C1400FFCD87 /* XSSkypePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSkypePlugin.h; sourceTree = "<group>"; };
+		47089B2212872C1400FFCD87 /* XSSkypePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSkypePlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47089B1212872C1400FFCD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47089B1812872C1400FFCD87 /* AddressBook.framework in Frameworks */,
+				47089B1A12872C1400FFCD87 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47089B0612872C1400FFCD87 = {
+			isa = PBXGroup;
+			children = (
+				47089B0D12872C1400FFCD87 /* Classes */,
+				47089B0E12872C1400FFCD87 /* Other Sources */,
+				47089B0F12872C1400FFCD87 /* Resources */,
+				47089B1012872C1400FFCD87 /* Frameworks */,
+				47089B1612872C1400FFCD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47089B0D12872C1400FFCD87 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47089B2012872C1400FFCD87 /* XSSkypePlugin.h */,
+				47089B2212872C1400FFCD87 /* XSSkypePlugin.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		47089B0E12872C1400FFCD87 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				47089B1C12872C1400FFCD87 /* XSSkypePlugin_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		47089B0F12872C1400FFCD87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47089B1B12872C1400FFCD87 /* XSSkypePlugin-Info.plist */,
+				47089B1D12872C1400FFCD87 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47089B1012872C1400FFCD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47089B1712872C1400FFCD87 /* AddressBook.framework */,
+				47089B1912872C1400FFCD87 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47089B1612872C1400FFCD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47089B1512872C1400FFCD87 /* XSSkypePlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47089B1412872C1400FFCD87 /* XSSkypePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47089B2612872C1400FFCD87 /* Build configuration list for PBXNativeTarget "XSSkypePlugin" */;
+			buildPhases = (
+				47089B1112872C1400FFCD87 /* Sources */,
+				47089B1212872C1400FFCD87 /* Frameworks */,
+				47089B1312872C1400FFCD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSSkypePlugin;
+			productName = XSSkypePlugin;
+			productReference = 47089B1512872C1400FFCD87 /* XSSkypePlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47089B0812872C1400FFCD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tecsidel, S.A.";
+			};
+			buildConfigurationList = 47089B0B12872C1400FFCD87 /* Build configuration list for PBXProject "XSSkypePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47089B0612872C1400FFCD87;
+			productRefGroup = 47089B1612872C1400FFCD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47089B1412872C1400FFCD87 /* XSSkypePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47089B1312872C1400FFCD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47089B1F12872C1400FFCD87 /* InfoPlist.strings in Resources */,
+				47089B2112872C1400FFCD87 /* XSSkypePlugin.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47089B1112872C1400FFCD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47089B2312872C1400FFCD87 /* XSSkypePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47089B1D12872C1400FFCD87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47089B1E12872C1400FFCD87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47089B2412872C1400FFCD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47089B2512872C1400FFCD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47089B2712872C1400FFCD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XSSkypePlugin_Prefix.pch;
+				INFOPLIST_FILE = "XSSkypePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		47089B2812872C1400FFCD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XSSkypePlugin_Prefix.pch;
+				INFOPLIST_FILE = "XSSkypePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47089B0B12872C1400FFCD87 /* Build configuration list for PBXProject "XSSkypePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47089B2412872C1400FFCD87 /* Debug */,
+				47089B2512872C1400FFCD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47089B2612872C1400FFCD87 /* Build configuration list for PBXNativeTarget "XSSkypePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47089B2712872C1400FFCD87 /* Debug */,
+				47089B2812872C1400FFCD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47089B0812872C1400FFCD87 /* Project object */;
+}
