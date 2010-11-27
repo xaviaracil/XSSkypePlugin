@@ -9,6 +9,9 @@
 #import <AddressBook/AddressBook.h>
 #import "XSSkypePlugin.h"
 
+#define kXSSkypeProperty @"com.xaracSoft.SkypeToAddressBook.skypeName"
+#define kSkypeToAddressBookDefaultValue @"Use SkypeToAddressBook to assign a Skype contact to this contact"
+
 @interface XSSkypePlugin : NSObject
 {
 }

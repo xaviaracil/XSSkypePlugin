@@ -19,29 +19,29 @@
 // Our menu title will look like Speak 555-1212
 - (NSString *)titleForPerson:(ABPerson *)person identifier:(NSString *)identifier
 {
-    ABMultiValue* values = [person valueForProperty:[self actionProperty]];
-    NSString* value = [values valueForIdentifier:identifier];
-
-    return [NSString stringWithFormat:@"Speak %@", value];    
+    NSString* value = [person valueForProperty:kXSSkypeProperty];
+    if (value) {
+        return [NSString stringWithFormat:@"Skype %@", value];
+    }
+    
+    return kSkypeToAddressBookDefaultValue;
 }
 
 // This method is called when the user selects your action. As above, this method
 // is passed information about the data item rolled over.
 - (void)performActionForPerson:(ABPerson *)person identifier:(NSString *)identifier
 {
-    ABMultiValue* values = [person valueForProperty:[self actionProperty]];
-    NSString* value = [values valueForIdentifier:identifier];
-
-    NSSpeechSynthesizer* speech = [[NSSpeechSynthesizer alloc] initWithVoice:[NSSpeechSynthesizer defaultVoice]];
-    [speech startSpeakingString:value];
-    [speech autorelease];
+    NSString* value = [person valueForProperty:kXSSkypeProperty];
+	NSString *url = [NSString stringWithFormat:@"skype:%@?call", value];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
 }
 
 // Optional. Your action will always be enabled in the absence of this method. As
 // above, this method is passed information about the data item rolled over.
 - (BOOL)shouldEnableActionForPerson:(ABPerson *)person identifier:(NSString *)identifier
 {
-    return YES;
+    NSString* value = [person valueForProperty:kXSSkypeProperty];
+    return value != NULL;
 }
 
 @end
