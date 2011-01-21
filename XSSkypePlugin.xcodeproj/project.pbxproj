@@ -15,11 +15,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47089B1512872C1400FFCD87 /* XSSkypePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XSSkypePlugin.bundle; path = Users/xavi/xaracSoft/Applications/XSSkypePlugin/build/Debug/XSSkypePlugin.bundle; sourceTree = SDKROOT; };
+		47089B1512872C1400FFCD87 /* XSSkypePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSSkypePlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		47089B1712872C1400FFCD87 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		47089B1912872C1400FFCD87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		47089B1B12872C1400FFCD87 /* XSSkypePlugin-Info.plist */ = {isa = PBXFileReference; path = "XSSkypePlugin-Info.plist"; sourceTree = "<group>"; };
-		47089B1C12872C1400FFCD87 /* XSSkypePlugin_Prefix.pch */ = {isa = PBXFileReference; path = XSSkypePlugin_Prefix.pch; sourceTree = "<group>"; };
+		47089B1B12872C1400FFCD87 /* XSSkypePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XSSkypePlugin-Info.plist"; sourceTree = "<group>"; };
+		47089B1C12872C1400FFCD87 /* XSSkypePlugin_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSkypePlugin_Prefix.pch; sourceTree = "<group>"; };
 		47089B1E12872C1400FFCD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47089B2012872C1400FFCD87 /* XSSkypePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSkypePlugin.h; sourceTree = "<group>"; };
 		47089B2212872C1400FFCD87 /* XSSkypePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSkypePlugin.m; sourceTree = "<group>"; };
