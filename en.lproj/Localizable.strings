@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  XSSkypePlugin
+
+  Created by Xavi Aracil on 01/02/11.
+  Copyright 2011 Tecsidel, S.A. All rights reserved.
+*/
+"message" = "Call free to Skype user %@ ";

@@ -12,6 +12,7 @@
 		47089B1F12872C1400FFCD87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47089B1D12872C1400FFCD87 /* InfoPlist.strings */; };
 		47089B2112872C1400FFCD87 /* XSSkypePlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 47089B2012872C1400FFCD87 /* XSSkypePlugin.h */; };
 		47089B2312872C1400FFCD87 /* XSSkypePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 47089B2212872C1400FFCD87 /* XSSkypePlugin.m */; };
+		47B6669E12F8B77200FFB2F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47B666A012F8B77200FFB2F7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,11 @@
 		47089B1E12872C1400FFCD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47089B2012872C1400FFCD87 /* XSSkypePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSkypePlugin.h; sourceTree = "<group>"; };
 		47089B2212872C1400FFCD87 /* XSSkypePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSkypePlugin.m; sourceTree = "<group>"; };
+		47B6669912F8B70000FFB2F7 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = /Users/xavi/xaracSoft/Applications/XSSkypePlugin/ca.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		47B6669B12F8B70200FFB2F7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = /Users/xavi/xaracSoft/Applications/XSSkypePlugin/es.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		47B6669F12F8B77200FFB2F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47B666A112F8B77800FFB2F7 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = /Users/xavi/xaracSoft/Applications/XSSkypePlugin/ca.lproj/Localizable.strings; sourceTree = "<absolute>"; };
+		47B666A212F8B77800FFB2F7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = /Users/xavi/xaracSoft/Applications/XSSkypePlugin/es.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			children = (
 				47089B1B12872C1400FFCD87 /* XSSkypePlugin-Info.plist */,
 				47089B1D12872C1400FFCD87 /* InfoPlist.strings */,
+				47B666A012F8B77200FFB2F7 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -126,6 +133,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ca,
+				es,
 			);
 			mainGroup = 47089B0612872C1400FFCD87;
 			productRefGroup = 47089B1612872C1400FFCD87 /* Products */;
@@ -144,6 +153,7 @@
 			files = (
 				47089B1F12872C1400FFCD87 /* InfoPlist.strings in Resources */,
 				47089B2112872C1400FFCD87 /* XSSkypePlugin.h in Resources */,
+				47B6669E12F8B77200FFB2F7 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +175,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				47089B1E12872C1400FFCD87 /* en */,
+				47B6669912F8B70000FFB2F7 /* ca */,
+				47B6669B12F8B70200FFB2F7 /* es */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47B666A012F8B77200FFB2F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B6669F12F8B77200FFB2F7 /* en */,
+				47B666A112F8B77800FFB2F7 /* ca */,
+				47B666A212F8B77800FFB2F7 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
