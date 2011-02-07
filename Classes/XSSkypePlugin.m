@@ -21,7 +21,8 @@
 {
     NSString* value = [person valueForProperty:kXSSkypeProperty];
     if (value) {
-        return [NSString stringWithFormat:NSLocalizedString(@"message", @"message with one param"), value];
+        //return [NSString stringWithFormat:NSLocalizedString(@"message", @"message with one param"), value];
+        return [NSString stringWithFormat:@"Call for free to Skype user %@ ", value];
     }
     
     return kSkypeToAddressBookDefaultValue;
