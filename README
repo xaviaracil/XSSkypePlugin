@@ -4,11 +4,11 @@ You may ask youself why to distribute this plugin separately from SkypeToAddresB
 
 Just click any phone number of your contact in the AddressBook and select Call free to Skype user … . Skype will launch and make the call!
 
-You can download the plugin in this URL: http://www.xadsolutions.com/wp-content/uploads/2011/02/XSSkypePlugin.2.0.zip
+You can download the plugin in this URL: http://laibeth.com/wp-content/uploads/2013/02/XSSkypePlugin.2.0.zip
 
 The installation is simple: just unzip the file and move the file XSSkypePlugin.bundle to Library/Address Book Plug-Ins folder (of your home folder if you want only for your user, on in root folder if you want the plugin for all users). If the folder doesn’t exist you can create it.
 
 Uninstallation is simpler: move the file XSSkypePlugin.bundle to the trash.
 
 
-More info at http://www.xadsolutions.com/skypetoaddressbook/skypetoaddressbook-addressbook-plugin/
+More info at http://laibeth.com/products/skypetoaddressbook/skypetoaddressbook-addressbook-plugin/
